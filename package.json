@@ -53,7 +53,7 @@
         "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS"
     },
     "lint-staged": {
-        "*.{js,vue,ts,tsx,css}": [
+        "*.{js,vue,ts,tsx}": [
             "vue-cli-service lint",
             "git add"
         ],

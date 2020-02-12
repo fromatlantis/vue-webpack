@@ -8,8 +8,8 @@
         "test:unit": "vue-cli-service test:unit",
         "test:e2e": "vue-cli-service test:e2e",
         "lint": "vue-cli-service lint",
-        "stylelint": "stylelint 'src/**/*.css'",
-        "stylelint:write": "stylelint 'src/**/*.css' --fix"
+        "stylelint": "stylelint 'src/**/*.{html,vue,css}'",
+        "stylelint:write": "stylelint 'src/**/*.{html,vue,css}' --fix"
     },
     "dependencies": {
         "core-js": "^3.4.4",
@@ -57,7 +57,7 @@
             "vue-cli-service lint",
             "git add"
         ],
-        "src/**/*.css": [
+        "src/**/*.{html,vue,css}": [
             "yarn stylelint:write",
             "git add"
         ]

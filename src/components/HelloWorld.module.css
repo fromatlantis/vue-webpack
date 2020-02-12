@@ -1,8 +1,8 @@
 .root {
     background-color: #ebebef;
     color: #bbb;
+    line-height: 30px;
     text-align: center;
     height: 30px;
-    line-height: 30px;
     width: 100%;
 }

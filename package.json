@@ -55,6 +55,9 @@
     "lint-staged": {
         "*.{js,vue,ts,tsx,css}": [
             "vue-cli-service lint",
+            "git add"
+        ],
+        "*.{css}": [
             "yarn stylelint:write",
             "git add"
         ]

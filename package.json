@@ -57,7 +57,7 @@
             "vue-cli-service lint",
             "git add"
         ],
-        "*.{css}": [
+        "src/**/*.css": [
             "yarn stylelint:write",
             "git add"
         ]

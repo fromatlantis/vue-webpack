@@ -1,0 +1,40 @@
+@custom-selector :--active :hover, .active;
+
+.root {
+    display: flex;
+    justify-content: space-between;
+
+    &.show {
+        height: auto;
+    }
+
+    &.hide {
+        height: 34px;
+        overflow-y: hidden;
+    }
+
+    & .unfold {
+        color: #0766ff;
+        cursor: pointer;
+        line-height: 34px;
+        text-align: center;
+        width: 100px;
+    }
+}
+
+.group {
+    display: flex;
+    flex-wrap: wrap;
+
+    & span {
+        margin: 5px;
+        padding: 2px 12px;
+    }
+
+    & span:--active {
+        background: rgba(255, 152, 0, 1);
+        border-radius: 17px;
+        color: #fff;
+        cursor: pointer;
+    }
+}
